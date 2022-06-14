@@ -9,7 +9,7 @@ namespace distributed_calculator.Models.DTOs {
         [Required]
         public string operation { get; set; }
         public override string ToString() {
-            return $"{N1} {operation} + {N2}";
+            return $"{N1} {operation} {N2}";
         }
     }
 }
